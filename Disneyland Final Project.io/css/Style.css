@@ -1,0 +1,412 @@
+div {
+	font-family: 'Roboto Slab', serif;
+}
+
+/* <editMain> */
+.sec1{
+	display: flex;
+	justify-content: space-between;
+	background: #394d364c;
+	padding-bottom: 50px;
+}
+
+.sec{
+	margin-top:100px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.news{
+	margin-top: 108px;
+	padding-bottom: 75px;
+	text-align: center;
+	/* text-weight: 1000;
+	text-size: 60px; */
+}
+
+.photo{
+	width: 300px;
+}
+
+.numb{
+	display: flex;
+	justify-content: space-between;
+}
+
+.email{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .logogor{
+	padding-bottom: 50px;
+} */
+
+.napishi{
+	margin-bottom: 50px;
+}
+
+.butt{
+	color: #fff;
+	background: #6A85E3;
+	font-size: 18px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.butt:hover{
+	background: #5e77d4;
+}
+
+.butt:active{
+	background: #415bb8;
+}
+
+.phoneLogo{
+	width: 30px;
+	height: 30px;
+}
+
+.logoMail{
+	width: 30px;
+	height: 30px;
+}
+
+.phoneLogo{
+	text-align: left;
+}
+
+.kazgeot{
+	padding-left: 10px;
+	text-align: left;
+}
+
+/* .sec2{
+	background: #394d364c;
+} */
+
+.images{
+	text-shadow: 0.5px 0.5px 0.5px black;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 100px 0 200px;
+	padding-bottom: 30px;
+	margin-bottom: 150px;
+}
+
+.image{
+	width: 600px;
+}
+
+.oNas	{
+	text-align: left;
+	padding-right: 18%;
+}
+
+.sec3{
+	padding: 50px 157px 94px 250px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background: #394d364c;
+
+}
+
+
+/* </editMain> */
+
+/* <edit3> */
+.allMail{
+	display: flex;
+	justify-content: space-between;
+}
+
+.mailLogo1{
+	margin-top: 15em;
+	margin-left: 150px;
+}
+
+.mailLogo{
+	margin-top: 15em;
+}
+
+/* </edit> */
+
+/* <edit1> */
+.card-body{
+	display: flex;
+	justify-content: 50px;
+}
+
+.Disneyland{
+	font-size: 22px;
+	/* margin-left: -70px; */
+}
+
+.rab{
+	text-align: center;
+}
+
+.carousel {
+  display: block;
+  margin: auto;
+  max-height: 768px;
+	max-width: 1500px;
+}
+
+.bigLogo{
+	width:250px;
+	margin: 10px 10px ;
+	/* float: left; */
+}
+.card-title1{
+	margin-right: 40px;
+}
+
+
+.text-left{
+	margin:0 10%;
+}
+
+
+/* </edit1> */
+
+/* <edit2> */
+
+.banner{
+	position: relative;
+	height: 100vh;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+
+
+/* .banner img {
+	height: 100%;
+
+} */
+
+.row{
+	text-align: center;
+}
+
+.section-top {
+  height: 100vh;     /*высота вьюпорта , на всю страницу*/
+	background: url("hH/ali.jpg");
+  background-size: cover;     /*одна фото покрывет всю страницу*/
+  text-align: center;
+  padding: 170px 0 100px;  /* отступ сверху 170 px, снизу 100px,слева справа 0*/
+}
+
+
+.section-top__containers {
+
+	padding: 0px 40px;
+  position: relative;          /*чтобы текст был выше по текстуре картинки*/
+  width: 500px;
+	background: #fff;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+
+}
+
+.row{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+/* </edit2> */
+
+
+
+
+.containe{
+	height: 80px;
+}
+
+
+
+.jumbotron {
+	margin: 7% 10%;
+}
+
+.navbar {
+	background-color: #394d369c;
+}
+
+#form-body
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 2%;
+	background-color: #394d369c;
+}
+
+.form {
+  display: grid;
+  grid-row-gap: 5px;
+}
+
+@media (min-width: 29.375rem) {
+  .form {
+    grid-column-gap: 25px;
+    grid-template-areas:
+      "label-name  label-email"
+      "field-name  field-email"
+      "label-msg   ."
+      "field-msg   field-msg"
+      "button      .";
+  }
+}
+
+@media (min-width: 29.375rem) {
+  .label-name {
+    grid-area: label-name;
+  }
+  .label-email {
+    grid-area: label-email;
+  }
+  .label-message {
+    grid-area: label-msg;
+  }
+  .field-name {
+    grid-area: field-name;
+  }
+  .field-email {
+    grid-area: field-email;
+  }
+  .field-message {
+    grid-area: field-msg;
+  }
+  .button {
+    grid-area: button;
+  }
+}
+
+.form {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  padding: 25px;
+}
+
+.field {
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+@media (max-width: 29.3125rem) {
+  .label-email {
+    margin-top: 20px;
+  }
+}
+
+.label-message {
+  margin-top: 20px;
+}
+
+ .aboutus {
+	/* margin-right: 10%;
+	margin-left: 10%; */
+
+}
+
+.middle {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.tomove {
+	padding-top: 20px;
+	padding-bottom:px;
+}
+
+h1 {
+	padding-top: 2%;
+}
+
+p {
+	font-size: 20px;
+}
+
+ol {
+	font-size: 20px;
+}
+
+ul {
+	font-size: 20px;
+}
+
+
+#tabll {
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10% ;
+}
+
+img {
+	width: 50%;
+
+}
+
+.footer {
+				font-size: medium;
+				position: fixed;
+				bottom: 0;
+				width: 100%	;
+				color: #ffffff;
+				background-color: #394d369c;
+				padding: 2.5px 0;
+				text-align: center;
+}
+
+/* .carousel-item {
+
+	align-items: center;
+	align-content: center;
+} */
+
+.subNav {
+	display: none;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+
+.alert {
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: green;
+	display: none;
+}
